@@ -1,0 +1,22 @@
+{
+    "notificationEmail": {
+        "value": "<email>"
+    },
+    "notificationCcEmail": {
+        "value": "<ccEmail>"
+    },
+    "$connections": {
+        "value": {
+            "azuretables": {
+                "connectionId": "/subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>/providers/Microsoft.Web/connections/azuretables",
+                "connectionName": "azuretables",
+                "id": "/subscriptions/<subscriptionId>/providers/Microsoft.Web/locations/<region>/managedApis/azuretables"
+            },
+            "outlook": {
+                "connectionId": "/subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>/providers/Microsoft.Web/connections/outlook",
+                "connectionName": "outlook",
+                "id": "/subscriptions/<subscriptionId>/providers/Microsoft.Web/locations/<region>/managedApis/outlook"
+            }
+        }
+    }
+}
